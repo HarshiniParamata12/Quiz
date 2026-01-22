@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Master Quiz | Professional</title>
+    <link href="quiz.css" rel="stylesheet">     
+</head>
+<body>
+
+<header>
+  <h1>Programming Master Quiz</h1>
+  <p>C, Java, and Python • 30 Questions</p>
+  <!-- Timer Display -->
+  <div id="timer" class="timer-badge">30:00</div>
+</header>
+
+<div class="quiz-container">
+  <form id="quizForm">
+    
+    <!-- SECTION: C PROGRAMMING -->
+    <div class="section-header">C Programming</div>
+
+    <div class="question">
+      <p>1. Which of the following is a valid C variable name?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q1" value="0"> 1num</label>
+        <label class="option-label"><input type="radio" name="q1" value="1"> num-1</label>
+        <label class="option-label"><input type="radio" name="q1" value="2" data-correct="true"> num_1</label>
+        <label class="option-label"><input type="radio" name="q1" value="3"> int</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>2. Which header file is required for printf()?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q2" value="0"> &lt;stdlib.h&gt;</label>
+        <label class="option-label"><input type="radio" name="q2" value="1" data-correct="true"> &lt;stdio.h&gt;</label>
+        <label class="option-label"><input type="radio" name="q2" value="2"> &lt;math.h&gt;</label>
+        <label class="option-label"><input type="radio" name="q2" value="3"> &lt;string.h&gt;</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>3. Which data type is used to store characters in C?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q3" value="0"> int</label>
+        <label class="option-label"><input type="radio" name="q3" value="1"> float</label>
+        <label class="option-label"><input type="radio" name="q3" value="2" data-correct="true"> char</label>
+        <label class="option-label"><input type="radio" name="q3" value="3"> double</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>4. Which symbol ends a statement in C?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q4" value="0"> :</label>
+        <label class="option-label"><input type="radio" name="q4" value="1"> .</label>
+        <label class="option-label"><input type="radio" name="q4" value="2" data-correct="true"> ;</label>
+        <label class="option-label"><input type="radio" name="q4" value="3"> ,</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>5. What is the size of char in C?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q5" value="0"> 2 bytes</label>
+        <label class="option-label"><input type="radio" name="q5" value="1"> 4 bytes</label>
+        <label class="option-label"><input type="radio" name="q5" value="2" data-correct="true"> 1 byte</label>
+        <label class="option-label"><input type="radio" name="q5" value="3"> Depends on compiler</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>6. Which operator is used to get the address of a variable?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q6" value="0"> *</label>
+        <label class="option-label"><input type="radio" name="q6" value="1"> #</label>
+        <label class="option-label"><input type="radio" name="q6" value="2" data-correct="true"> &amp;</label>
+        <label class="option-label"><input type="radio" name="q6" value="3"> %</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>7. Which loop executes at least once?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q7" value="0"> for</label>
+        <label class="option-label"><input type="radio" name="q7" value="1"> while</label>
+        <label class="option-label"><input type="radio" name="q7" value="2" data-correct="true"> do-while</label>
+        <label class="option-label"><input type="radio" name="q7" value="3"> if</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>8. Which keyword is used to define a constant?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q8" value="0" data-correct="true"> const</label>
+        <label class="option-label"><input type="radio" name="q8" value="1"> static</label>
+        <label class="option-label"><input type="radio" name="q8" value="2"> final</label>
+        <label class="option-label"><input type="radio" name="q8" value="3"> define</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>9. What is the default value of a local variable?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q9" value="0"> 0</label>
+        <label class="option-label"><input type="radio" name="q9" value="1"> NULL</label>
+        <label class="option-label"><input type="radio" name="q9" value="2" data-correct="true"> Garbage value</label>
+        <label class="option-label"><input type="radio" name="q9" value="3"> Empty</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>10. Which function is used to read a string?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q10" value="0"> scanf()</label>
+        <label class="option-label"><input type="radio" name="q10" value="1"> gets()</label>
+        <label class="option-label"><input type="radio" name="q10" value="2"> fgets()</label>
+        <label class="option-label"><input type="radio" name="q10" value="3" data-correct="true"> All of the above</label>
+      </div>
+    </div>
+
+    <!-- SECTION: JAVA PROGRAMMING -->
+    <div class="section-header">Java Programming</div>
+
+    <div class="question">
+      <p>11. Which keyword is used to create an object?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q11" value="0"> object</label>
+        <label class="option-label"><input type="radio" name="q11" value="1"> class</label>
+        <label class="option-label"><input type="radio" name="q11" value="2" data-correct="true"> new</label>
+        <label class="option-label"><input type="radio" name="q11" value="3"> create</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>12. Java is a ______ language.</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q12" value="0"> Low-level</label>
+        <label class="option-label"><input type="radio" name="q12" value="1"> Machine-dependent</label>
+        <label class="option-label"><input type="radio" name="q12" value="2" data-correct="true"> Platform-independent</label>
+        <label class="option-label"><input type="radio" name="q12" value="3"> Assembly-level</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>13. Entry point of Java program is:</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q13" value="0"> start()</label>
+        <label class="option-label"><input type="radio" name="q13" value="1" data-correct="true"> main()</label>
+        <label class="option-label"><input type="radio" name="q13" value="2"> run()</label>
+        <label class="option-label"><input type="radio" name="q13" value="3"> init()</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>14. Which is not a primitive data type?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q14" value="0"> int</label>
+        <label class="option-label"><input type="radio" name="q14" value="1"> float</label>
+        <label class="option-label"><input type="radio" name="q14" value="2" data-correct="true"> String</label>
+        <label class="option-label"><input type="radio" name="q14" value="3"> char</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>15. Which keyword is used for inheritance?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q15" value="0"> implements</label>
+        <label class="option-label"><input type="radio" name="q15" value="1" data-correct="true"> extends</label>
+        <label class="option-label"><input type="radio" name="q15" value="2"> inherits</label>
+        <label class="option-label"><input type="radio" name="q15" value="3"> super</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>16. Which access modifier allows access everywhere?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q16" value="0"> private</label>
+        <label class="option-label"><input type="radio" name="q16" value="1"> protected</label>
+        <label class="option-label"><input type="radio" name="q16" value="2"> default</label>
+        <label class="option-label"><input type="radio" name="q16" value="3" data-correct="true"> public</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>17. Which package is auto imported?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q17" value="0"> java.util</label>
+        <label class="option-label"><input type="radio" name="q17" value="1"> java.io</label>
+        <label class="option-label"><input type="radio" name="q17" value="2" data-correct="true"> java.lang</label>
+        <label class="option-label"><input type="radio" name="q17" value="3"> java.net</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>18. Which loop is best when iterations are known?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q18" value="0"> while</label>
+        <label class="option-label"><input type="radio" name="q18" value="1"> do-while</label>
+        <label class="option-label"><input type="radio" name="q18" value="2" data-correct="true"> for</label>
+        <label class="option-label"><input type="radio" name="q18" value="3"> foreach</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>19. Which keyword prevents inheritance?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q19" value="0"> static</label>
+        <label class="option-label"><input type="radio" name="q19" value="1" data-correct="true"> final</label>
+        <label class="option-label"><input type="radio" name="q19" value="2"> private</label>
+        <label class="option-label"><input type="radio" name="q19" value="3"> abstract</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>20. JVM stands for:</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q20" value="0"> Java Variable Machine</label>
+        <label class="option-label"><input type="radio" name="q20" value="1"> Java Virtual Method</label>
+        <label class="option-label"><input type="radio" name="q20" value="2" data-correct="true"> Java Virtual Machine</label>
+        <label class="option-label"><input type="radio" name="q20" value="3"> Java Verified Machine</label>
+      </div>
+    </div>
+
+    <!-- SECTION: PYTHON PROGRAMMING -->
+    <div class="section-header">Python Programming</div>
+
+    <div class="question">
+      <p>21. Python is a ______ language.</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q21" value="0"> Low-level</label>
+        <label class="option-label"><input type="radio" name="q21" value="1" data-correct="true"> High-level</label>
+        <label class="option-label"><input type="radio" name="q21" value="2"> Assembly-level</label>
+        <label class="option-label"><input type="radio" name="q21" value="3"> Machine-level</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>22. Symbol used for comments?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q22" value="0"> //</label>
+        <label class="option-label"><input type="radio" name="q22" value="1"> &lt;!-- --&gt;</label>
+        <label class="option-label"><input type="radio" name="q22" value="2" data-correct="true"> #</label>
+        <label class="option-label"><input type="radio" name="q22" value="3"> /* */</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>23. Which keyword defines a function?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q23" value="0"> function</label>
+        <label class="option-label"><input type="radio" name="q23" value="1"> define</label>
+        <label class="option-label"><input type="radio" name="q23" value="2" data-correct="true"> def</label>
+        <label class="option-label"><input type="radio" name="q23" value="3"> fun</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>24. Output of print(type(5))?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q24" value="0"> &lt;class 'float'&gt;</label>
+        <label class="option-label"><input type="radio" name="q24" value="1"> &lt;class 'str'&gt;</label>
+        <label class="option-label"><input type="radio" name="q24" value="2" data-correct="true"> &lt;class 'int'&gt;</label>
+        <label class="option-label"><input type="radio" name="q24" value="3"> &lt;class 'bool'&gt;</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>25. Which data type is immutable?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q25" value="0"> List</label>
+        <label class="option-label"><input type="radio" name="q25" value="1"> Set</label>
+        <label class="option-label"><input type="radio" name="q25" value="2"> Dictionary</label>
+        <label class="option-label"><input type="radio" name="q25" value="3" data-correct="true"> Tuple</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>26. Which function takes user input?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q26" value="0"> scanf()</label>
+        <label class="option-label"><input type="radio" name="q26" value="1"> read()</label>
+        <label class="option-label"><input type="radio" name="q26" value="2" data-correct="true"> input()</label>
+        <label class="option-label"><input type="radio" name="q26" value="3"> get()</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>27. Output of print(3 * 2 ** 2)?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q27" value="0"> 36</label>
+        <label class="option-label"><input type="radio" name="q27" value="1" data-correct="true"> 12</label>
+        <label class="option-label"><input type="radio" name="q27" value="2"> 18</label>
+        <label class="option-label"><input type="radio" name="q27" value="3"> 6</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>28. Which keyword is used for exception handling?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q28" value="0"> catch</label>
+        <label class="option-label"><input type="radio" name="q28" value="1"> handle</label>
+        <label class="option-label"><input type="radio" name="q28" value="2" data-correct="true"> try</label>
+        <label class="option-label"><input type="radio" name="q28" value="3"> error</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>29. Which loop is used to iterate over a list?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q29" value="0"> while</label>
+        <label class="option-label"><input type="radio" name="q29" value="1"> do-while</label>
+        <label class="option-label"><input type="radio" name="q29" value="2" data-correct="true"> for</label>
+        <label class="option-label"><input type="radio" name="q29" value="3"> repeat</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>30. What is the file extension for Python files?</p>
+      <div class="options-group">
+        <label class="option-label"><input type="radio" name="q30" value="0"> .java</label>
+        <label class="option-label"><input type="radio" name="q30" value="1"> .c</label>
+        <label class="option-label"><input type="radio" name="q30" value="2" data-correct="true"> .py</label>
+        <label class="option-label"><input type="radio" name="q30" value="3"> .python</label>
+      </div>
+    </div>
+
+    <div class="submit-container">
+      <button type="button" class="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+    </div>
+  </form>
+
+  <div id="result">
+    <h2>Quiz Completed!</h2>
+    <div class="score-display" id="scoreText">0 / 30</div>
+    <p class="score-msg" id="scoreMessage">Great job!</p>
+    <button type="button" class="retry-btn" onclick="location.reload()">Try Again</button>
+  </div>
+</div>
+<script src="quiz.js"></script>
+</body>
+</html>
